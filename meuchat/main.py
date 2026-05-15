@@ -7,7 +7,7 @@ from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 
 from core.prompt_mestre import PromptMestre
-from ia_service import IAService
+from services.ia_service import IAService
 
 #---------------------------------------------------
 # Inicialização do app e dos serviços
