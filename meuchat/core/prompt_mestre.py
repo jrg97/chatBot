@@ -10,7 +10,7 @@ class PromptMestre:
 
         self.formato = "Forma como a resposta deve ser entregue. No nosso caso é texto"
 
-    def montar_system_prompt() -> str:
+    def montar_system_prompt(self) -> str:
     
         system_prompt = f"""
         {self.persona}
